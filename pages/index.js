@@ -9,8 +9,8 @@ export default function Home({ posts }) {
   return (
     <div className={'container mx-auto px-10 mb-8'}>
       <Head>
-        <title>IT Trends Blog</title>
-        <meta name="description" content="IT Trends Blog" />
+        <title>Trends Blog</title>
+        <meta name="description" content="Trends Blog" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <FeaturedPosts />
