@@ -61,7 +61,7 @@ const PostCard = ({ post = { title: 'test', excerpt: 'test' } }) => {
         <Link href={`/post/${post.slug}`}>
           <span
             className={
-              'transition duration-700 transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer'
+              'transition duration-700 transform hover:-translate-y-1 inline-block bg-gray-100  text-lg font-medium rounded-lg text-black px-8 py-1 cursor-pointer'
             }
           >
             Continue reading...
