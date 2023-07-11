@@ -1,5 +1,6 @@
 import React from 'react';
 import moment from 'moment/moment';
+import {RichText} from "@graphcms/rich-text-react-renderer";
 
 const PostDetail = ({ post }) => {
 
@@ -41,6 +42,7 @@ const PostDetail = ({ post }) => {
         return modifiedText;
     }
   };
+
 
   return (
     <div className={'bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8'}>
@@ -91,6 +93,7 @@ const PostDetail = ({ post }) => {
 
           return getContentFragment(index, children, typeObj, typeObj.type);
         })}
+
       </div>
     </div>
   );
